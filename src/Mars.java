@@ -18,7 +18,8 @@ public class Mars {
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
         }
 //        new GuessingGame();
-        new MarsExpedition();
+//        new MarsExpedition();
+        new FindingList();
     }
 
     public static boolean landingCheck(int minutesLeft) throws InterruptedException {
